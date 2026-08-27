@@ -72,3 +72,17 @@ if (Math.random() < 0.02) {  // 2% chance per frame
 Chrome, Firefox, Safari, Edge, and any modern browser with Canvas API.
 
 ## Files
+
+├── index.html # Main page
+├── style.css # Styling
+├── script-image.js # Animation logic
+└── README.md # This file
+
+
+## License
+
+MIT — Use it however you want!
+
+---
+
+⚡ Built with vanilla JavaScript and Canvas API
