@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0a0a;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #00ffff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    width: 100%;
+}
+
+#status {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #00ffff;
+    opacity: 0.7;
+    min-height: 20px;
+}
+
+#videoInput {
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    background: #1a1a1a;
+    border: 2px solid #00ffff;
+    color: #00ffff;
+    cursor: pointer;
+    font-family: monospace;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+#videoInput:hover {
+    background: #00ffff;
+    color: #0a0a0a;
+    transform: scale(1.05);
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#playPauseBtn {
+    padding: 8px 16px;
+    background: #1a1a1a;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    cursor: pointer;
+    font-family: monospace;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-size: 12px;
+}
+
+#playPauseBtn:hover {
+    background: #00ffff;
+    color: #0a0a0a;
+}
+
+#speedSlider {
+    width: 100px;
+    cursor: pointer;
+    accent-color: #00ffff;
+}
+
+#speedLabel {
+    font-size: 12px;
+    min-width: 30px;
+}
+
+canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    filter: brightness(1.1);
+    margin-bottom: 20px;
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.info {
+    font-size: 11px;
+    color: #00ffff;
+    opacity: 0.6;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.credit {
+    font-size: 11px;
+    color: #00ffff;
+    opacity: 0.5;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
