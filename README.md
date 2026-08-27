@@ -73,14 +73,13 @@ Chrome, Firefox, Safari, Edge, and any modern browser with Canvas API.
 
 ## Files
 
+├── README.md # This file
+
 ├── index.html # Main page
 
 ├── style.css # Styling
 
-├── script-image.js # Animation logic
-
-└── README.md # This file
-
+└── script-image.js # Animation logic
 
 ## License
 
