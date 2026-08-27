@@ -74,8 +74,11 @@ Chrome, Firefox, Safari, Edge, and any modern browser with Canvas API.
 ## Files
 
 ├── index.html # Main page
+
 ├── style.css # Styling
+
 ├── script-image.js # Animation logic
+
 └── README.md # This file
 
 
