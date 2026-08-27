@@ -81,6 +81,10 @@ Chrome, Firefox, Safari, Edge, and any modern browser with Canvas API.
 
 └── script-image.js # Animation logic
 
+## Inspiration
+
+Inspired by [coffkaexe](https://github.com/coffkaexe) — Do check her out!
+
 ## License
 
 MIT — Use it however you want!
